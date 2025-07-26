@@ -1,3 +1,18 @@
-.env
+# Ignore node_modules everywhere
+**/node_modules
+
+# Ignore .next for frontend
+
 frontend/
 backend/
+# Ignore logs
+**/logs
+*.log
+
+# Ignore environment files
+*.env
+*.env.local
+
+# Ignore Docker system files
+**/Dockerfile
+**/docker-compose.override.yml
